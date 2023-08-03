@@ -1,0 +1,44 @@
+body {
+    background: #eee;
+    font-family: sans-serif;
+  }
+  
+  .card {
+    width: 450px;
+    background: #ffffff;
+    margin: 160px auto;
+    padding: 8px;
+    outline-style:inset;
+    outline-width: 5px;
+  }
+  
+  .title {
+    background: #8fa4b7;
+    text-align: center;
+    color: #222121;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .recipes {
+    display: inline;
+    margin-left: 25px;
+  }
+
+  .pasta, .chicken, .shrimp {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ede5f1;
+    font-weight: bold;
+    background-color: #864489;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+  }
+  .pasta:hover, .chicken:hover, .shrimp:hover {
+    background-color: #c2c7c7;
+  }
