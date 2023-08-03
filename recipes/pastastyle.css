@@ -39,7 +39,7 @@ body {
 
   .ingredients {
     display: block;
-    margin: -50px auto 50px;
+    margin: -100px auto 50px;
     text-align: center;
     width: 200px;
     color: white;
@@ -89,7 +89,7 @@ body {
     width: 800px;
     padding: 20px;
     height: auto;
-    margin: 100px auto;
+    margin: 50px auto;
     color: rgb(22, 21, 21);
     background: rgb(235, 235, 242);
     outline: 5px inset black;
