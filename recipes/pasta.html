@@ -8,6 +8,7 @@
     </head>
 
     <body>
+        <div class="card">
         <div class="intro">
         <h1 class="title">Pasta</h1>
             <img src="./images/pasta.jpg" alt="Chef John's Classic Macaroni Salad"
@@ -21,8 +22,9 @@
         </div>
 
             <h3 class="ingredients">Ingredients</h3>
-                <div class="dressing">
-                <strong class="dressing-head">Dressing:</strong>
+                <div class="float-container">
+                    <div class="dressing fc">
+                    <strong class="dressing-head">Dressing:</strong>
                     <ul>
                         <li> 1 cup mayonnaise (Optional) </li>
                         <li> ¼ cup white vinegar </li>
@@ -38,17 +40,19 @@
                         <li>¼ cup diced jalapeno pepper</li>
                         <li> ¼ cup diced poblano pepper</li>
                     </ul>
-                </div>
-                <div class="macaroni">
-                <strong class="macaroni-head">Macaroni</strong>
+                    </div>
+                     <div class="macaroni fc">
+                    <strong class="macaroni-head">Macaroni</strong>
                     <ul>
                         <li> ¼ cup diced poblano pepper</li>
                         <li>1 tablespoon water (Optional)</li>
                         <li>1 tablespoon mayonnaise (Optional)</li>
                     </ul>
+                    </div>
                 </div>
 
-            <h3 class="steps">Steps</h3>
+                <div class="steps">
+            <h3 style="text-align:center; margin-top:-10px;">Steps</h3>
                     <ol>
                         <li>Whisk mayonnaise, vinegar, Dijon, salt, black pepper, and cayenne together in a bowl until well blended. Whisk in sugar, then stir in celery, bell pepper, carrot, green onions, jalapeño pepper, and poblano pepper. Cover and refrigerate until macaroni is ready. </li>
                         <li>Bring a large pot of generously salted water to a boil. Cook macaroni in the boiling water, stirring occasionally, until tender but firm to the bite, about 8 minutes. Drain but do not rinse.</li>
@@ -57,7 +61,14 @@
                         <li>Stir salad before serving. Mix water and remaining mayonnaise into salad for a fresher look.</li>
 
                     </ol>
-
+                </div>
+                </div>  
                 
+                <!-- <div class="parent">
+                    <div class="box" id="box-1"></div>
+                    <div class="box" id="box-2"></div>
+                    <div class="box" id="box-3"></div>
+                    <div class="box" id="box-4"></div>
+                </div> -->
     </body>
 </html>
